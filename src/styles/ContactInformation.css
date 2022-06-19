@@ -1,0 +1,55 @@
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.img-photo {
+    border-radius: 50% 50%;
+    background-color: #16233F;
+    max-width: 65%;
+    padding: 10%;
+}
+
+.line-occupation {
+    height: 5px;
+    width: 15%;
+    background-image: linear-gradient(to right, #2664B9, #21A4AF);
+    border-radius: 50%;
+}
+
+p {
+    font-family:  Ubuntu-Regular;
+}
+
+.grid-content {
+    background-color: #16233F; /*#16233F  #FFFFFF   #4F82FF  #5E84F7  #FCD5D6*/
+}
+
+.icon {
+    vertical-align: text-bottom;
+}
+
+.name-bar{
+    color: #848EA8;
+}
+
+.profession-bar {
+    color: #0070C0;
+    font-family:  Ubuntu-Regular, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.triangulo-equilatero-left {
+    border: solid #16233F;
+    border-bottom-color:transparent;
+    border-left-color:transparent;
+    border-width:5vh 0px 0px 30vw;
+    
+}
+
+.triangulo-equilatero-right {
+    border: solid #16233F;
+    border-bottom-color:transparent;
+    border-right-color:transparent;
+    border-width:5vh 65vw 0px 0px;
+}

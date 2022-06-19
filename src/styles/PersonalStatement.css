@@ -1,0 +1,20 @@
+p {
+    font-family:  Ubuntu-Regular;
+}
+
+.name {
+    color: #4F82FF;
+    font-weight: bold;
+}
+
+.line {
+    height: 5px;
+    width: 15%;
+    background-color: #F7DB8F;
+    border-radius: 50%;
+}
+
+.personal-information{
+    padding-top: 2%;
+}
+
