@@ -1,6 +1,6 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import WorkExperience from "../assets/work-experience-icon.svg";
+import WorkExperience from "../work-experience-icon.svg";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import Timeline from "@mui/lab/Timeline";

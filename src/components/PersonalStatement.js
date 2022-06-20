@@ -7,6 +7,7 @@ import GitHubIcon from "@mui/icons-material/GitHub";
 import BadgeIcon from "@mui/icons-material/Badge";
 import CelebrationIcon from "@mui/icons-material/Celebration";
 import Button from "@mui/material/Button";
+import LanguageIcon from "@mui/icons-material/Language";
 import "../styles/PersonalStatement.css";
 
 const PersonalStatement = () => {
@@ -68,6 +69,13 @@ const PersonalStatement = () => {
           <GridItem
             icon={<GitHubIcon className="icon" />}
             name="Github: github.com/AndersonCastilloL"
+          />
+        </a>
+
+        <a href="https://andersoncastillol.github.io/andersonresume/  ">
+          <GridItem
+            icon={<LanguageIcon className="icon" />}
+            name="Resume: andersoncastillol.github.io/andersonresume/"
           />
         </a>
       </Grid>

@@ -1,5 +1,5 @@
 import React from "react";
-import Photo from "../assets/photo.jpg";
+import Photo from "../photo.jpg";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import GridItem from "./GridItem";

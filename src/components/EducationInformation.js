@@ -4,7 +4,7 @@ import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineDot from "@mui/lab/TimelineDot";
 import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
-import Education from "../assets/education-icon.svg";
+import Education from "../education-icon.svg";
 
 const EducationInformation = () => {
   return (
