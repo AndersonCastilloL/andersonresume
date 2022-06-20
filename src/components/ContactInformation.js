@@ -18,7 +18,7 @@ const ContactInformation = () => {
         <Grid item xs={2}>
           <img
             className="img-photo"
-            src={process.env.PUBLIC_URL + "./photo.jpg"}
+            src={process.env.PUBLIC_URL + "../assets/images/photo.jpg"}
             alt="Foto de perfil"
           />
         </Grid>
