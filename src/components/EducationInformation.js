@@ -11,7 +11,7 @@ const EducationInformation = () => {
       <Grid item className="logo">
         <img
           className="img-education"
-          src={"../assets/images/education-icon.svg"}
+          src={process.env.PUBLIC_URL + "../assets/images/education-icon.svg"}
           alt="Education Logo"
         ></img>
       </Grid>

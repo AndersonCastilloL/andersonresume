@@ -29,7 +29,9 @@ const ExperienceInformation = () => {
       <Grid item className="logo">
         <img
           className="img-experience"
-          src={"../assets/images/work-experience-icon.svg"}
+          src={
+            process.env.PUBLIC_URL + "../assets/images/work-experience-icon.svg"
+          }
           alt="Education Logo"
         ></img>
       </Grid>
