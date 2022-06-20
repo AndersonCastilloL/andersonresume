@@ -10,7 +10,7 @@
     "main.a0696efd.js.map": "./andersonresume/static/js/main.a0696efd.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a26a207.css",
-    "static/js/main.a0696efd.js"
+    "./andersonresume/static/css/main.4a26a207.css",
+    "./andersonresume/static/js/main.a0696efd.js"
   ]
 }
