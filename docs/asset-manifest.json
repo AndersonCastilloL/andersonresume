@@ -12,5 +12,6 @@
   "entrypoints": [
     "static/css/main.4a26a207.css",
     "static/js/main.a0696efd.js"
-  ]
+  ],
+  "start_url": "."
 }
