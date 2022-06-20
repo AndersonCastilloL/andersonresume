@@ -1,6 +1,5 @@
 import React from "react";
 import Grid from "@mui/material/Grid";
-import WorkExperience from "../work-experience-icon.svg";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
 import TimelineConnector from "@mui/lab/TimelineConnector";
 import Timeline from "@mui/lab/Timeline";
@@ -30,7 +29,7 @@ const ExperienceInformation = () => {
       <Grid item className="logo">
         <img
           className="img-experience"
-          src={WorkExperience}
+          src={"../assets/images/work-experience-icon.svg"}
           alt="Education Logo"
         ></img>
       </Grid>

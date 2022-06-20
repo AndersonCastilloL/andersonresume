@@ -1,5 +1,4 @@
 import React from "react";
-import Photo from "../photo.jpg";
 import EmailIcon from "@mui/icons-material/Email";
 import PhoneAndroidIcon from "@mui/icons-material/PhoneAndroid";
 import GridItem from "./GridItem";
@@ -17,7 +16,11 @@ const ContactInformation = () => {
         className="grid-content"
       >
         <Grid item xs={2}>
-          <img className="img-photo" src={Photo} alt="Foto de perfil" />
+          <img
+            className="img-photo"
+            src={"../assets/images/photo.jpg"}
+            alt="Foto de perfil"
+          />
         </Grid>
         <Grid item xs={7}>
           <Grid item>
