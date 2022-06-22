@@ -12,7 +12,9 @@ const EducationAndSkills = () => {
         <Grid item>
           <h3> Education & Skills </h3>
         </Grid>
-        <Grid item className="line-education"></Grid>
+        <Grid item className="line-style">
+          <div className="line-education"></div>
+        </Grid>
       </Grid>
       <Grid container direction="row" justifyContent="center">
         <EducationInformation />

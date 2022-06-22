@@ -7,7 +7,7 @@ import TimelineOppositeContent from "@mui/lab/TimelineOppositeContent";
 
 const EducationInformation = () => {
   return (
-    <Grid item xs={3}>
+    <Grid item xs={10} sm={5} md={3}>
       <Grid item className="logo">
         <img
           className="img-education"

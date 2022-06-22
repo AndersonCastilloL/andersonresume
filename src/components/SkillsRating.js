@@ -18,7 +18,7 @@ const SkillItem = ({ skill, rating }) => {
 
 const SkillsRating = () => {
   return (
-    <Grid item xs={5} className="skills">
+    <Grid item xs={10} md={5} className="skills">
       <SkillItem skill={"HTML5 & CSS3"} rating={60} />
       <SkillItem skill={"React"} rating={80} />
       <SkillItem skill={"NodeJS"} rating={50} />

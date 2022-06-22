@@ -7,6 +7,10 @@ p {
     font-weight: bold;
 }
 
+.line-style{
+    padding-bottom: 3%;
+}
+
 .line {
     height: 5px;
     width: 15%;
@@ -14,7 +18,9 @@ p {
     border-radius: 50%;
 }
 
+
 .personal-information{
     padding-top: 2%;
 }
+
 

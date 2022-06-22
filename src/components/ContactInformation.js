@@ -15,14 +15,14 @@ const ContactInformation = () => {
         alignItems="center"
         className="grid-content"
       >
-        <Grid item xs={2}>
+        <Grid item xs={6} sm={4} md={2}>
           <img
             className="img-photo"
             src={process.env.PUBLIC_URL + "./photo.jpg"}
             alt="Foto de perfil"
           />
         </Grid>
-        <Grid item xs={7}>
+        <Grid item xs={6} sm={6} md={7}>
           <Grid item>
             <h2 className="name-bar">Anderson Castillo</h2>
           </Grid>
@@ -32,7 +32,7 @@ const ContactInformation = () => {
 
           <Grid item className="line-occupation"></Grid>
         </Grid>
-        <Grid item xs={3}>
+        <Grid item xs={12} md={3}>
           <GridItem
             icon={<EmailIcon className="icon" />}
             name="Email: anderson.castillo@pucp.edu.pe"

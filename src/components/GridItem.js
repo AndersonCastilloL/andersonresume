@@ -5,7 +5,9 @@ import "../styles/GridItem.css";
 const GridItem = ({ icon, name }) => {
   return (
     <Grid item xs className="grid-item">
-      {icon} {name}
+      <p>
+        {icon} {name}
+      </p>
     </Grid>
   );
 };

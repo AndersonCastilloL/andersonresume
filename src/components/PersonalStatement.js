@@ -18,11 +18,13 @@ const PersonalStatement = () => {
       justifyContent="space-evenly"
       alignItems="center"
     >
-      <Grid item xs={5}>
+      <Grid item xs={10} md={5}>
         <Grid item>
           <h3> About us! </h3>
         </Grid>
-        <Grid item className="line"></Grid>
+        <Grid item className="line-style">
+          <div className="line"></div>
+        </Grid>
         <Grid item className="name">
           I'm Anderson Castillo
         </Grid>
@@ -46,7 +48,7 @@ const PersonalStatement = () => {
           </Button>
         </Grid>
       </Grid>
-      <Grid item xs={5} className="personal-information">
+      <Grid item xs={10} md={5} className="personal-information">
         <GridItem
           icon={<BadgeIcon className="icon" />}
           name="Name: Anderson Castillo"
@@ -71,7 +73,6 @@ const PersonalStatement = () => {
             name="Github: github.com/AndersonCastilloL"
           />
         </a>
-
         <a href="https://andersoncastillol.github.io/andersonresume/  ">
           <GridItem
             icon={<LanguageIcon className="icon" />}

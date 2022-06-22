@@ -25,7 +25,7 @@ const CustomTimeLineContent = ({ year, position, company }) => {
 
 const ExperienceInformation = () => {
   return (
-    <Grid item xs={3}>
+    <Grid item xs={10} sm={5} md={3}>
       <Grid item className="logo">
         <img
           className="img-experience"
